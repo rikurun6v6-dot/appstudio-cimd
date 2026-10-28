@@ -8,5 +8,5 @@
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
-  "scope": "mcp:tools.read"
+  "scope": "mcp:tools.read mcp:tools.list"
 }
