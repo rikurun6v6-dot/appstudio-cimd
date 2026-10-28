@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>App Studio callback relay</title>
+</head>
+<body>
+<p>ローカルの実験スクリプトへ転送しています…</p>
+<script>
+  // 認可サーバーから受け取った code / state を、ローカルの実験スクリプトにそのまま渡す。
+  // 127.0.0.1 の redirect URI が CIMD で拒否された場合の代替経路。
+  location.replace("http://127.0.0.1:8765/callback" + location.search);
+</script>
+</body>
+</html>

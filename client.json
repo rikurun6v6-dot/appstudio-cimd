@@ -1,0 +1,12 @@
+{
+  "client_id": "https://rikurun6v6-dot.github.io/appstudio-cimd/client.json",
+  "client_name": "Kuroco App Studio (experiment)",
+  "redirect_uris": [
+    "http://127.0.0.1:8765/callback",
+    "https://rikurun6v6-dot.github.io/appstudio-cimd/callback.html"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "mcp:tools.read"
+}
